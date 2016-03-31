@@ -110,7 +110,7 @@ public final class KafkaWordCount {
 					 */
 					@Override
 					public String call(String string) throws Exception {
-
+						checkUpdate(string);
 						return string;
 					}
 				});
@@ -129,5 +129,26 @@ public final class KafkaWordCount {
 				return null;
 			}
 		});
+	}
+
+	public static void checkUpdate(String string) {
+		/*
+		 1. Convert string to json
+		 2. extract the name.
+		 3. check if the name is in HashMap.
+		 		3.1 if not --> create new object(Lighting class) of that name and initialize with default values.
+		 		3.2 if yes --> go to step 4.
+		 4. check the state of light with initialState of light object.
+		 		4.1 If state has not changed --> do nothing.
+		 		4.2 If state has changed --> Go to step 5.
+		 5. Check for the following cases: 
+		 		5.1 If state changed from Red --> Green
+		 				update initialState, and store the timeStamp
+		 		5.2 If state changed from Green --> Red
+		 				update timestamp to new timestamp, update Ontime for light, update initialState.
+		 
+		 */
+		
+		
 	}
 }

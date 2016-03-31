@@ -6,7 +6,6 @@ import java.io.PrintWriter;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 import java.util.Properties;
 
@@ -88,9 +87,12 @@ public class MqttConsumerToKafkaProducer implements Runnable {
 			String strPayload = new String(payload);
 			// process the message then:
 			message.ack();
+			
+			JSONObject jobj = new JSONObject(strPayload);
+			jobj.put("TimeStamp", Calendar.getInstance().getTime().getTime());
 			KeyedMessage<String, String> kafkaMessage = new KeyedMessage<String, String>(message.getTopic(),
-					strPayload);
-			System.out.println(kafkaMessage.message());
+					jobj.toString());
+			
 
 			producer.send(kafkaMessage);
 			
