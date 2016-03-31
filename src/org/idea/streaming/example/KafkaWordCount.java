@@ -1,6 +1,7 @@
 package org.idea.streaming.example;
 
-import java.util.Date;
+import java.sql.Timestamp;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -9,7 +10,6 @@ import java.util.regex.Pattern;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.api.java.function.FlatMapFunction;
 import org.apache.spark.api.java.function.Function;
 //import org.apache.spark.examples.streaming.StreamingExamples;
 import org.apache.spark.streaming.Duration;
@@ -17,11 +17,11 @@ import org.apache.spark.streaming.api.java.JavaDStream;
 import org.apache.spark.streaming.api.java.JavaPairReceiverInputDStream;
 import org.apache.spark.streaming.api.java.JavaStreamingContext;
 import org.apache.spark.streaming.kafka.KafkaUtils;
+import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.google.common.collect.Lists;
 
 import scala.Tuple2;
 
@@ -32,7 +32,7 @@ public final class KafkaWordCount {
 	private KafkaWordCount() {
 
 	}
-
+	public HashMap<String, Lighting> objectHashmap = new HashMap<String, Lighting>();
 	public static void main(String[] argsold) throws Exception {
 		MqttConsumerToKafkaProducer obj = new MqttConsumerToKafkaProducer();
 		obj.start();
@@ -42,7 +42,7 @@ public final class KafkaWordCount {
 		SparkConf sparkConf = new SparkConf().setAppName("JavaWordCount").setMaster("local[2]")
 				.set("spark.executor.memory", "1g");
 		JavaStreamingContext jssc = new JavaStreamingContext(sparkConf, new Duration(30000));
-
+		
 		/*
 		 * Setting the spark executor memory and local[2] are very important to
 		 * avoid the following error: Initial job has not accepted any
@@ -110,7 +110,7 @@ public final class KafkaWordCount {
 					 */
 					@Override
 					public String call(String string) throws Exception {
-						checkUpdate(string);
+						//checkUpdate(string);
 						return string;
 					}
 				});
@@ -131,7 +131,7 @@ public final class KafkaWordCount {
 		});
 	}
 
-	public static void checkUpdate(String string) {
+	public  void checkUpdate(String string) throws JSONException {
 		/*
 		 1. Convert string to json
 		 2. extract the name.
@@ -148,6 +148,30 @@ public final class KafkaWordCount {
 		 				update timestamp to new timestamp, update Ontime for light, update initialState.
 		 
 		 */
+		JSONObject jobj = new JSONObject(string);
+		String name = jobj.getString("name");
+		String initialState = jobj.getString("state");
+		Timestamp timestamp = Timestamp.valueOf(jobj.getString("Timestamp"));
+		Calendar onTime = Calendar.getInstance();
+		onTime.set(Calendar.HOUR, 0);
+		onTime.set(Calendar.MINUTE, 0);
+		onTime.set(Calendar.SECOND, 0);
+		onTime.set(Calendar.MILLISECOND, 0);
+		if (!objectHashmap.containsKey(name)) {
+			Lighting light = new Lighting();
+			light.setName(name);
+			light.setOnTime(onTime);
+			light.setTimestamp(timestamp);
+			light.setIntialState(initialState);
+			objectHashmap.put(name, light);
+		} else {
+			Lighting light = objectHashmap.get(name);
+			if(light.getIntialState() != initialState ){
+				switch(initialState){
+				//case ""
+				}
+			}
+		}
 		
 		
 	}

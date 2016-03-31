@@ -1,22 +1,28 @@
 package org.idea.streaming.example;
 
-import java.sql.Time;
 import java.sql.Timestamp;
+import java.util.Calendar;
 
 public class Lighting {
 
 	private Timestamp timestamp;
-	private Time onTime;
+	private Calendar onTime;
 	private String intialState;
 	private String name;
 
-	public Lighting(Timestamp timestamp, Time onTime, String intialState, String name) {
+	public Lighting(Timestamp timestamp, Calendar onTime, String intialState, String name) {
 		super();
 		this.timestamp = timestamp;
 		this.onTime = onTime;
 		this.intialState = intialState;
 		this.name = name;
 	}
+
+	
+	public Lighting() {
+		
+	}
+
 
 	public Timestamp getTimestamp() {
 		return timestamp;
@@ -26,11 +32,11 @@ public class Lighting {
 		this.timestamp = timestamp;
 	}
 
-	public Time getOnTime() {
+	public Calendar getOnTime() {
 		return onTime;
 	}
 
-	public void setOnTime(Time onTime) {
+	public void setOnTime(Calendar onTime) {
 		this.onTime = onTime;
 	}
 
