@@ -1,8 +1,8 @@
 package org.idea.streaming.example;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
+import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -168,10 +168,11 @@ public class MqttConsumerToKafkaProducer implements Runnable {
 		options.addOption(MQTT_BROKER_HOST, true, "MQTT Broker Host");
 		options.addOption(MQTT_BROKER_PORT, true, "MQTT Broker Port");
 		options.addOption(MQTT_BROKER_TOPICS, true, "MQTT Broker Topics");
-
+		
 		CommandLineParser parser = new PosixParser();
 		CommandLine cmd;
 		try {
+			PrintWriter writer = new PrintWriter("Stream.txt", "UTF-8");
 			cmd = parser.parse(options, args);
 
 			Properties props = new Properties();
@@ -228,11 +229,13 @@ public class MqttConsumerToKafkaProducer implements Runnable {
 
 				KeyedMessage<String, String> kafkaMessage = new KeyedMessage<String, String>(message.getTopic(),
 						jobj.toString());
+				writer.println(kafkaMessage.message());
 				producer.send(kafkaMessage);
 			} while (!exit);
 
 			connection.disconnect();
 			producer.close();
+		
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
