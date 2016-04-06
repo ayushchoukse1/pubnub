@@ -1,229 +1,112 @@
-{"deviceId":"28:ff:2c:31:44:04:00:c2","deviceType":"DS18B20","celciusTemperature":21.5,"temperature":70.7,"TimeStamp":"2016-04-05 15:58:17.481"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:58:13.31"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:58:13.324"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:58:13.352"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:58:13.386"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:58:13.423"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:58:13.46"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:58:13.474"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:58:13.491"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:58:13.502"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:58:13.52"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.19,"temperature":70.14,"TimeStamp":"2016-04-05 15:58:14.442"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.69,"temperature":78.24,"TimeStamp":"2016-04-05 15:58:14.625"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":2.87,"temperature":37.17,"date":"2016-04-05T22:58:20.139Z","TimeStamp":"2016-04-05 15:58:14.985"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:58:18.249"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:58:18.35"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:58:18.361"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:58:18.383"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:58:18.409"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:58:18.432"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:58:18.442"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:58:18.446"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:58:18.461"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:58:18.465"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.19,"temperature":70.14,"TimeStamp":"2016-04-05 15:58:19.464"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.69,"temperature":78.24,"TimeStamp":"2016-04-05 15:58:19.633"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":2.87,"temperature":37.17,"date":"2016-04-05T22:58:25.146Z","TimeStamp":"2016-04-05 15:58:20.382"}
-{"deviceId":"28:ff:2c:31:44:04:00:c2","deviceType":"DS18B20","celciusTemperature":21.5,"temperature":70.7,"TimeStamp":"2016-04-05 15:58:23.393"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:58:23.502"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:58:23.621"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:58:23.629"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:58:23.636"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:58:23.654"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:58:23.673"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:58:23.68"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:58:23.689"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:58:23.704"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:58:23.745"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.25,"temperature":70.25,"TimeStamp":"2016-04-05 15:58:24.447"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.75,"temperature":78.35,"TimeStamp":"2016-04-05 15:58:24.632"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":2.94,"temperature":37.29,"date":"2016-04-05T22:58:30.143Z","TimeStamp":"2016-04-05 15:58:25.022"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:58:28.641"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:58:28.751"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:58:28.755"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:58:28.76"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:58:28.763"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:58:28.768"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:58:28.773"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:58:28.778"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:58:28.786"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:58:28.801"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.25,"temperature":70.25,"TimeStamp":"2016-04-05 15:58:29.449"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.75,"temperature":78.35,"TimeStamp":"2016-04-05 15:58:29.632"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":2.94,"temperature":37.29,"date":"2016-04-05T22:58:35.146Z","TimeStamp":"2016-04-05 15:58:30.155"}
-{"deviceId":"28:ff:2c:31:44:04:00:c2","deviceType":"DS18B20","celciusTemperature":21.5,"temperature":70.7,"TimeStamp":"2016-04-05 15:58:33.906"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:58:34.04"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:58:34.145"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:58:34.151"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:58:34.154"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:58:34.157"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:58:34.16"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:58:34.17"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:58:34.176"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:58:34.18"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:58:34.189"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.25,"temperature":70.25,"TimeStamp":"2016-04-05 15:58:34.448"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.69,"temperature":78.24,"TimeStamp":"2016-04-05 15:58:34.626"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":3,"temperature":37.4,"date":"2016-04-05T22:58:40.148Z","TimeStamp":"2016-04-05 15:58:35.048"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:58:39.18"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:58:39.293"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:58:39.301"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:58:39.305"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:58:39.315"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:58:39.321"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:58:39.328"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:58:39.34"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:58:39.346"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:58:39.351"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.temp","value":"72.5","timestamp":1459897124,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:39.406"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.OPERATING_MODE","value":"HEAT","timestamp":1459897124,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:39.528"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.FAN_MODE","value":"AUTO","timestamp":1459897124,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:39.531"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.override","value":"0","timestamp":1459897124,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:39.534"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.HOLD","value":"Disabled","timestamp":1459897124,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:39.543"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.SetPoint","value":"62.0","timestamp":1459897124,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:39.546"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.tstate","value":"0","timestamp":1459897124,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:39.555"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.FanState","value":"Off","timestamp":1459897124,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:39.561"}
-{"temp":72.5,"tmode":1,"fmode":0,"override":0,"hold":0,"t_heat":62,"tstate":0,"fstate":0,"time":{"day":1,"hour":16,"minute":57},"t_type_post":0,"client":"IDEA Thermostats_5aa57bf6-b9c1-4f01-8ec9-cb31526c8fdf","TimeStamp":"2016-04-05 15:58:39.565"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.25,"temperature":70.25,"TimeStamp":"2016-04-05 15:58:39.569"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.69,"temperature":78.24,"TimeStamp":"2016-04-05 15:58:39.658"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":3,"temperature":37.4,"date":"2016-04-05T22:58:45.152Z","TimeStamp":"2016-04-05 15:58:40.04"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.temp","value":"64.0","timestamp":1459897127,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:41.785"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.OPERATING_MODE","value":"HEAT","timestamp":1459897127,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:41.877"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.FAN_MODE","value":"AUTO","timestamp":1459897127,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:41.881"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.override","value":"0","timestamp":1459897127,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:41.884"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.HOLD","value":"Disabled","timestamp":1459897127,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:41.888"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.SetPoint","value":"62.0","timestamp":1459897127,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:41.893"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.tstate","value":"0","timestamp":1459897127,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:41.9"}
-{"client":"IDEA Thermostat","measure":"sys.thermostat.FanState","value":"Off","timestamp":1459897127,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 15:58:41.909"}
-{"temp":64,"tmode":1,"fmode":0,"override":0,"hold":0,"t_heat":62,"tstate":0,"fstate":0,"time":{"day":1,"hour":16,"minute":58},"t_type_post":0,"client":"IDEA Thermostats_5aa57bf6-b9c1-4f01-8ec9-cb31526c8fdf","TimeStamp":"2016-04-05 15:58:41.921"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:58:44.32"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:58:44.417"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:58:44.425"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:58:44.431"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:58:44.435"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:58:44.442"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:58:44.449"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:58:44.455"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:58:44.46"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:58:44.466"}
-{"deviceId":"28:ff:2c:31:44:04:00:c2","deviceType":"DS18B20","celciusTemperature":21.5,"temperature":70.7,"TimeStamp":"2016-04-05 15:58:44.47"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.25,"temperature":70.25,"TimeStamp":"2016-04-05 15:58:44.513"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.69,"temperature":78.24,"TimeStamp":"2016-04-05 15:58:44.63"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":3,"temperature":37.4,"date":"2016-04-05T22:58:50.154Z","TimeStamp":"2016-04-05 15:58:45.059"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.25,"temperature":70.25,"TimeStamp":"2016-04-05 15:58:49.467"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:58:49.57"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:58:49.573"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:58:49.578"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:58:49.582"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:58:49.585"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:58:49.589"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:58:49.592"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:58:49.598"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:58:49.601"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:58:49.611"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.69,"temperature":78.24,"TimeStamp":"2016-04-05 15:58:49.671"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":3,"temperature":37.4,"date":"2016-04-05T22:58:55.155Z","TimeStamp":"2016-04-05 15:58:49.963"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.25,"temperature":70.25,"TimeStamp":"2016-04-05 15:58:54.46"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.69,"temperature":78.24,"TimeStamp":"2016-04-05 15:58:54.655"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:58:54.75"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:58:54.753"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:58:54.756"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:58:54.759"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:58:54.762"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:58:54.765"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:58:54.768"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:58:54.782"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:58:54.786"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:58:54.794"}
-{"deviceId":"28:ff:2c:31:44:04:00:c2","deviceType":"DS18B20","celciusTemperature":21.5,"temperature":70.7,"TimeStamp":"2016-04-05 15:58:54.866"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":3,"temperature":37.4,"date":"2016-04-05T22:59:00.156Z","TimeStamp":"2016-04-05 15:58:55.043"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.25,"temperature":70.25,"TimeStamp":"2016-04-05 15:58:59.463"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.62,"temperature":78.12,"TimeStamp":"2016-04-05 15:58:59.646"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:58:59.797"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:58:59.882"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:58:59.889"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:58:59.895"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:58:59.899"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:58:59.904"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:58:59.914"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:58:59.921"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:58:59.93"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:58:59.933"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":3,"temperature":37.4,"date":"2016-04-05T22:59:05.158Z","TimeStamp":"2016-04-05 15:59:00.071"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.25,"temperature":70.25,"TimeStamp":"2016-04-05 15:59:04.466"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.69,"temperature":78.24,"TimeStamp":"2016-04-05 15:59:04.65"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:59:04.985"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:59:05.074"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:59:05.079"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:59:05.083"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:59:05.091"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:59:05.098"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:59:05.105"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:59:05.109"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:59:05.118"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:59:05.126"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":3,"temperature":37.4,"date":"2016-04-05T22:59:10.163Z","TimeStamp":"2016-04-05 15:59:05.133"}
-{"deviceId":"28:ff:2c:31:44:04:00:c2","deviceType":"DS18B20","celciusTemperature":21.5,"temperature":70.7,"TimeStamp":"2016-04-05 15:59:05.156"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.19,"temperature":70.14,"TimeStamp":"2016-04-05 15:59:10.17"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.69,"temperature":78.24,"TimeStamp":"2016-04-05 15:59:10.219"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":3,"temperature":37.4,"date":"2016-04-05T22:59:15.186Z","TimeStamp":"2016-04-05 15:59:10.31"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:59:10.504"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:59:10.508"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:59:10.514"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:59:10.517"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:59:10.518"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:59:10.52"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:59:10.524"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:59:10.528"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:59:10.532"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:59:10.534"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.25,"temperature":70.25,"TimeStamp":"2016-04-05 15:59:14.804"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.69,"temperature":78.24,"TimeStamp":"2016-04-05 15:59:14.89"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":2.94,"temperature":37.29,"date":"2016-04-05T22:59:20.164Z","TimeStamp":"2016-04-05 15:59:15.225"}
-{"deviceId":"28:ff:2c:31:44:04:00:c2","deviceType":"DS18B20","celciusTemperature":21.5,"temperature":70.7,"TimeStamp":"2016-04-05 15:59:15.542"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:59:15.763"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:59:15.859"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:59:15.861"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:59:15.863"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:59:15.867"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:59:15.872"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:59:15.876"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:59:15.881"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:59:15.886"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:59:15.894"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.25,"temperature":70.25,"TimeStamp":"2016-04-05 15:59:19.805"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.69,"temperature":78.24,"TimeStamp":"2016-04-05 15:59:19.9"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":2.94,"temperature":37.29,"date":"2016-04-05T22:59:25.167Z","TimeStamp":"2016-04-05 15:59:20.105"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:59:20.908"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:59:20.999"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:59:21.002"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:59:21.005"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:59:21.011"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:59:21.013"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:59:21.016"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:59:21.023"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:59:21.025"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:59:21.028"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.19,"temperature":70.14,"TimeStamp":"2016-04-05 15:59:24.813"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.75,"temperature":78.35,"TimeStamp":"2016-04-05 15:59:24.915"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":2.94,"temperature":37.29,"date":"2016-04-05T22:59:30.172Z","TimeStamp":"2016-04-05 15:59:25.089"}
-{"deviceId":"28:ff:2c:31:44:04:00:c2","deviceType":"DS18B20","celciusTemperature":21.5,"temperature":70.7,"TimeStamp":"2016-04-05 15:59:25.949"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:59:26.095"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:59:26.18"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:59:26.183"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:59:26.185"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 15:59:26.187"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 15:59:26.19"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 15:59:26.192"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 15:59:26.197"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 15:59:26.199"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 15:59:26.202"}
-{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":21.19,"temperature":70.14,"TimeStamp":"2016-04-05 15:59:29.81"}
-{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":25.75,"temperature":78.35,"TimeStamp":"2016-04-05 15:59:29.894"}
-{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":2.94,"temperature":37.29,"date":"2016-04-05T22:59:35.170Z","TimeStamp":"2016-04-05 15:59:30.029"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 15:59:31.239"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 15:59:31.402"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 15:59:31.405"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 15:59:31.408"}
-{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 1
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 20:33:13.476"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 20:33:08.904"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 20:33:08.91"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 20:33:08.915"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 20:33:08.922"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 20:33:08.929"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 20:33:08.94"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 20:33:08.945"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 20:33:08.951"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 20:33:08.962"}
+{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":16.69,"temperature":62.04,"TimeStamp":"2016-04-05 20:33:10.263"}
+{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":27.06,"temperature":80.71,"TimeStamp":"2016-04-05 20:33:10.414"}
+{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":0.81,"temperature":33.46,"date":"2016-04-06T03:33:15.733Z","TimeStamp":"2016-04-05 20:33:10.772"}
+{"deviceId":"28:ff:2c:31:44:04:00:c2","deviceType":"DS18B20","celciusTemperature":23.56,"temperature":74.41,"TimeStamp":"2016-04-05 20:33:12.227"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 20:33:13.768"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 20:33:13.878"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 20:33:13.887"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 20:33:13.894"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 20:33:13.94"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 20:33:13.951"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 20:33:13.979"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 20:33:13.991"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 20:33:14.002"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 20:33:14.007"}
+{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":16.69,"temperature":62.04,"TimeStamp":"2016-04-05 20:33:15.226"}
+{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":27.19,"temperature":80.94,"TimeStamp":"2016-04-05 20:33:15.421"}
+{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":0.81,"temperature":33.46,"date":"2016-04-06T03:33:20.735Z","TimeStamp":"2016-04-05 20:33:15.796"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 20:33:18.914"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 20:33:19.016"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 20:33:19.02"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 20:33:19.029"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 20:33:19.039"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 20:33:19.048"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 20:33:19.053"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 20:33:19.059"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 20:33:19.068"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 20:33:19.072"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.temp","value":"71.0","timestamp":1459913604,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:19.357"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.OPERATING_MODE","value":"HEAT","timestamp":1459913604,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:19.477"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.FAN_MODE","value":"AUTO","timestamp":1459913604,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:19.485"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.override","value":"0","timestamp":1459913604,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:19.489"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.HOLD","value":"Disabled","timestamp":1459913604,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:19.499"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.SetPoint","value":"70.0","timestamp":1459913604,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:19.507"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.tstate","value":"0","timestamp":1459913604,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:19.514"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.FanState","value":"Off","timestamp":1459913604,"device":"Upstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:19.52"}
+{"temp":71,"tmode":1,"fmode":0,"override":0,"hold":0,"t_heat":70,"tstate":0,"fstate":0,"time":{"day":1,"hour":21,"minute":32},"t_type_post":0,"client":"IDEA Thermostats_5aa57bf6-b9c1-4f01-8ec9-cb31526c8fdf","TimeStamp":"2016-04-05 20:33:19.535"}
+{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":16.69,"temperature":62.04,"TimeStamp":"2016-04-05 20:33:20.228"}
+{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":27.19,"temperature":80.94,"TimeStamp":"2016-04-05 20:33:20.419"}
+{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":0.81,"temperature":33.46,"date":"2016-04-06T03:33:25.741Z","TimeStamp":"2016-04-05 20:33:20.699"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.temp","value":"69.0","timestamp":1459913606,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:21.949"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.OPERATING_MODE","value":"HEAT","timestamp":1459913606,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:21.99"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.FAN_MODE","value":"AUTO","timestamp":1459913606,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:21.995"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.override","value":"0","timestamp":1459913606,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:22.008"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.HOLD","value":"Disabled","timestamp":1459913606,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:22.049"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.SetPoint","value":"70.0","timestamp":1459913606,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:22.052"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.tstate","value":"1","timestamp":1459913606,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:22.056"}
+{"client":"IDEA Thermostat","measure":"sys.thermostat.FanState","value":"Off","timestamp":1459913606,"device":"Downstairs","manufacturer":"Honeywell","TimeStamp":"2016-04-05 20:33:22.059"}
+{"temp":69,"tmode":1,"fmode":0,"override":0,"hold":0,"t_heat":70,"tstate":1,"fstate":0,"time":{"day":1,"hour":21,"minute":32},"t_type_post":0,"client":"IDEA Thermostats_5aa57bf6-b9c1-4f01-8ec9-cb31526c8fdf","TimeStamp":"2016-04-05 20:33:22.086"}
+{"deviceId":"28:ff:2c:31:44:04:00:c2","deviceType":"DS18B20","celciusTemperature":23.56,"temperature":74.41,"TimeStamp":"2016-04-05 20:33:22.62"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 20:33:24.071"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 20:33:24.178"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 20:33:24.184"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 20:33:24.188"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 20:33:24.193"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 20:33:24.197"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 20:33:24.212"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 20:33:24.225"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 20:33:24.232"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 20:33:24.236"}
+{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":16.69,"temperature":62.04,"TimeStamp":"2016-04-05 20:33:25.229"}
+{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":27.19,"temperature":80.94,"TimeStamp":"2016-04-05 20:33:25.419"}
+{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":0.81,"temperature":33.46,"date":"2016-04-06T03:33:30.740Z","TimeStamp":"2016-04-05 20:33:25.639"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 20:33:29.461"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 20:33:29.575"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 20:33:29.579"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 20:33:29.581"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 20:33:29.583"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 20:33:29.586"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 20:33:29.587"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 20:33:29.589"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 20:33:29.591"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 20:33:29.592"}
+{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":16.69,"temperature":62.04,"TimeStamp":"2016-04-05 20:33:30.228"}
+{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":27.19,"temperature":80.94,"TimeStamp":"2016-04-05 20:33:30.425"}
+{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":0.81,"temperature":33.46,"date":"2016-04-06T03:33:35.741Z","TimeStamp":"2016-04-05 20:33:30.671"}
+{"deviceId":"28:ff:2c:31:44:04:00:c2","deviceType":"DS18B20","celciusTemperature":23.5,"temperature":74.3,"TimeStamp":"2016-04-05 20:33:33.295"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 20:33:34.881"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 20:33:35.0"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 20:33:35.002"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 20:33:35.004"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 20:33:35.007"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 20:33:35.016"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 20:33:35.018"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 20:33:35.022"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 20:33:35.025"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 20:33:35.028"}
+{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":16.62,"temperature":61.92,"TimeStamp":"2016-04-05 20:33:35.23"}
+{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":27.12,"temperature":80.82,"TimeStamp":"2016-04-05 20:33:35.425"}
+{"deviceId":"28:4d:4a:60:07:00:00:9f","deviceType":"DS18B20","celciusTemperature":0.88,"temperature":33.58,"date":"2016-04-06T03:33:40.743Z","TimeStamp":"2016-04-05 20:33:35.676"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch E","state":"Green","TimeStamp":"2016-04-05 20:33:40.507"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Horse Picture","state":"Green","TimeStamp":"2016-04-05 20:33:40.509"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Aspen","state":"Green","TimeStamp":"2016-04-05 20:33:40.514"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family W","state":"Green","TimeStamp":"2016-04-05 20:33:40.517"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family Couch W","state":"Green","TimeStamp":"2016-04-05 20:33:40.522"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family TV","state":"Green","TimeStamp":"2016-04-05 20:33:40.527"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room E","state":"Green","TimeStamp":"2016-04-05 20:33:40.53"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room NW","state":"Green","TimeStamp":"2016-04-05 20:33:40.536"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Green","TimeStamp":"2016-04-05 20:33:40.539"}
+{"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Family E","state":"Green","TimeStamp":"2016-04-05 20:33:40.541"}
+{"deviceId":"28:26:1c:60:07:00:00:ad","deviceType":"DS18B20","celciusTemperature":16.69,"temperature":62.04,"TimeStamp":"2016-04-05 20:33:40.543"}
+{"deviceId":"28:db:b1:1f:06:00:00:d3","deviceType":"DS18B20","celciusTemperature":27.06,"temperature":80.71,"TimeStamp":"2016-04-05 20:33:40.614"}
+{"deviceId":"

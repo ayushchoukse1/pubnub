@@ -56,7 +56,7 @@ public final class KafkaWordCount {
 		String listenerName = "testListener";
 		SparkConf sparkConf = new SparkConf().setAppName("JavaWordCount").setMaster("local[2]")
 				.set("spark.executor.memory", "1g");
-		JavaStreamingContext jssc = new JavaStreamingContext(sparkConf, new Duration(60000));
+		JavaStreamingContext jssc = new JavaStreamingContext(sparkConf, new Duration(2000));
 //		JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
 		/*
 		 * Setting the spark executor memory and local[2] are very important to
@@ -126,7 +126,7 @@ public final class KafkaWordCount {
 
 
 			};
-			timer.schedule (hourlyTask, 0l, 1000*15);
+			timer.schedule (hourlyTask, 0l, 1000*2);
 		jssc.start();
 		jssc.awaitTermination();
 
@@ -154,7 +154,10 @@ public final class KafkaWordCount {
 		long onTimeOld = 0;
 		long onTimeCurrent = 0;
 		String bulbName = null;
-		
+		for (Map.Entry<String, Lighting> entry : objectHashmap.entrySet()) {
+		    System.out.println("Priting objectHashmap inside persist method");
+			System.out.println(entry.getKey()+" : "+entry.getValue());
+		}
 		Iterator itr = objectHashmap.entrySet().iterator();
 		
 		while(itr.hasNext())
@@ -188,11 +191,10 @@ public final class KafkaWordCount {
 			}
 			else
 			{
-
 				//insert
 				newDoc.put("name", bulbName);
 				newDoc.put("onTime", (onTimeCurrent));
-				collection.insert(newDoc);
+				collection.save(newDoc);
 				
 			}
 		}
@@ -226,7 +228,8 @@ public final class KafkaWordCount {
 						temp.set(Calendar.MINUTE, 0);
 						temp.set(Calendar.SECOND, 0);
 						temp.set(Calendar.MILLISECOND, 0);
-						Long onTime = temp.getTimeInMillis();
+						long onTime = (long)0;
+						
 						if (objectHashmap.containsKey(name)) {
 							System.out.println("objectHashmap has " + name);
 							Lighting light = objectHashmap.get(name);
@@ -254,6 +257,7 @@ public final class KafkaWordCount {
 
 									// The total time for which the light was on.
 									long diff = light.getTimestamp().getTime() - timestamp.getTime();
+									System.out.println("diff is = "+diff);
 									long oldTimeInMilli = light.getOnTime();
 									oldTimeInMilli = oldTimeInMilli + diff;
 									
@@ -283,9 +287,10 @@ public final class KafkaWordCount {
 				});
 				
 				//print objecHashmap
-				/*for (Map.Entry<String, Lighting> entry : objectHashmap.entrySet()) {
-				    System.out.println(entry.getKey()+" : "+entry.getValue());
-				}*/
+				for (Map.Entry<String, Lighting> entry : objectHashmap.entrySet()) {
+				    System.out.println("Priting objectHashmap");
+					System.out.println(entry.getKey()+" : "+entry.getValue());
+				}
 				List<String> ls = rowRDD.collect();
 				ObjectMapper mapper = new ObjectMapper();
 				for (int i = 0; i < ls.size(); i++) {
