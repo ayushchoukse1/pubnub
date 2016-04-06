@@ -1,17 +1,20 @@
 package org.idea.streaming.example;
 
-import java.io.IOException;
+import java.net.UnknownHostException;
 import java.sql.Timestamp;
 import java.util.Calendar;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.regex.Pattern;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.api.java.function.Function;
 //import org.apache.spark.examples.streaming.StreamingExamples;
 import org.apache.spark.streaming.Duration;
@@ -22,10 +25,13 @@ import org.apache.spark.streaming.kafka.KafkaUtils;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import com.mongodb.BasicDBObject;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.DBCursor;
+import com.mongodb.MongoClient;
 
 import scala.Tuple2;
 
@@ -36,7 +42,10 @@ public final class KafkaWordCount {
 	private KafkaWordCount() {
 
 	}
-
+	private static MongoClient mongo = null;
+	private static DB db = null;
+	private static DBCollection collection = null;
+	
 	public static HashMap<String, Lighting> objectHashmap = new HashMap<String, Lighting>();
 
 	public static void main(String[] argsold) throws Exception {
@@ -56,7 +65,14 @@ public final class KafkaWordCount {
 		 * registered and have sufficient resources
 		 * 
 		 */
-
+		try {
+			mongo = new MongoClient( "localhost" , 27017 );
+			db = mongo.getDB("ideadb");
+			collection = db.getCollection("lights");
+		} catch (UnknownHostException e) {
+			e.printStackTrace();
+		}
+		
 		int numThreads = 5;
 		final AtomicLong dataCounter = new AtomicLong(0);
 		Map<String, Integer> topicMap = new HashMap<String, Integer>();
@@ -100,112 +116,89 @@ public final class KafkaWordCount {
 		});
 
 		 readRDD(lightsOnLines);
+		 Timer timer = new Timer();
+			TimerTask hourlyTask = new TimerTask() {
+				
+				@Override
+				public void run() {
+					persistData();
+				}
 
+
+			};
+			timer.schedule (hourlyTask, 0l, 1000*15);
 		jssc.start();
 		jssc.awaitTermination();
 
 	}
-	/*public static void readRDDOne(JavaRDD<String> rdd) throws JsonParseException, JsonMappingException, IOException{
+
+	public static void persistData(){
 		
+		/*
+		Algorithm to persist data into MongoDB data base
+		1. Iterate over the objectHashmap for every key value present in it.
+		2. For each entry in hashmap
+			2.1 Search MongoDB for the key
+			2.2 if key is present then
+				2.2.1 replace the old onTime with new update onTime
+			2.3 else
+					2.3.1 make an entry in the mongodb database with key and current onTime.
+		*/
 		
-		 * Iterating over all the RDD's in JavaDStream to append timestamp at
-		 * the end for processing.
-		 
-
-	
-				JavaRDD<String> rowRDD = rdd.map(new Function<String, String>() {
-					
-					 * Make modifications to the String here.
-					 
-					@Override
-					public String call(String string) throws Exception {
-						//checkUpdate(string);
-						System.out.println("checkUpdate running for: "+string);
-						JSONObject jobj = new JSONObject(string);
-						String name = jobj.getString("name");
-						String currentState = jobj.getString("state");
-						Timestamp timestamp = Timestamp.valueOf(jobj.getString("TimeStamp"));
-						Calendar temp = Calendar.getInstance();
-						temp.set(Calendar.HOUR, 0);
-						temp.set(Calendar.MINUTE, 0);
-						temp.set(Calendar.SECOND, 0);
-						temp.set(Calendar.MILLISECOND, 0);
-						Timestamp onTime = new Timestamp(temp.getTimeInMillis());
-						if (objectHashmap.containsKey(name)) {
-							System.out.println("objectHashmap has " + name);
-							Lighting light = objectHashmap.get(name);
-							String initialState = light.getIntialState();
-							if (!initialState.equals(currentState)) {
-								System.out.println("State changed for "+ name);
-								if (initialState.equals("Red") && currentState.equals("Green")) {
-
-									
-									 * State changed from Red to Green update initialState, and
-									 * store the timeStamp
-									 * 
-									 
-									System.out.println("ayush");
-									System.out.println(light.getName()+" has changed from red to green at: "+ light.getTimestamp().getTime());
-									light.setTimestamp(timestamp);
-									light.setIntialState(currentState);
-
-								} else if (initialState.equals("Green") && currentState.equals("Red")) {
-
-									
-									 * State changed from Green to Red update timestamp to new
-									 * timestamp, update Ontime for light, update initialState.
-									 
-									System.out.println("Pappu");
-									// The total time for which the light was on.
-									long diff = light.getTimestamp().getTime() - timestamp.getTime();
-									long oldTimeInMilli = light.getOnTime().getTime();
-									oldTimeInMilli = oldTimeInMilli + diff;
-									light.setOnTime(new Timestamp(oldTimeInMilli));
-									System.out.println("New Updated onTime for "+light.getName()+" is "+light.getOnTime().getTime());
-									light.setTimestamp(timestamp);
-									light.setIntialState(currentState);
-								}
-
-							}
-							else{
-								System.out.println("No Change of state in "+name);
-							}
-						} 
-						else {
-							Lighting light = new Lighting();
-							light.setName(name);
-							light.setOnTime(onTime);
-							light.setTimestamp(timestamp);
-							light.setIntialState(currentState);
-							objectHashmap.put(name, light);
-							
-							System.out.println("Light added: "+light.getName()+" with onTime: "+light.getOnTime().getTime());
-						}
-						return string;
-					}
-				});
+		//Hashmap will be stored in MongoDB here
+		BasicDBObject query = new BasicDBObject();
+		BasicDBObject newDoc = new BasicDBObject();
+		BasicDBObject retreivalObj = null;
+		BasicDBObject updateObj = null;
+		DBCursor cursor = null;
+		long onTimeOld = 0;
+		long onTimeCurrent = 0;
+		String bulbName = null;
+		
+		Iterator itr = objectHashmap.entrySet().iterator();
+		
+		while(itr.hasNext())
+		{
+			//fidn the bulb entry in mongo
+			Map.Entry<String, Lighting> pair = (Map.Entry)itr.next();
+			bulbName = pair.getKey();
+			onTimeCurrent = pair.getValue().getOnTime();
+			System.out.println("bulbName = "+ bulbName + " onTimeCurrent = "+ onTimeCurrent);
+			query.put("name", bulbName);
+			cursor = collection.find(query);
+			
+			//keep a document ready with the name add the time diff later
+		//	newDoc.put("name", bulbName);
+			
+			
+			if(cursor.hasNext())
+			{	
+				//When database already has an entry
+				// 1. get the entry from db
+				// 2. update onTime with current time.
+				retreivalObj = (BasicDBObject)cursor.next();
+				//newDoc.put("onTime", (onTimeCurrent));
 				
-				//print objecHashmap
-				for (Map.Entry<String, Lighting> entry : objectHashmap.entrySet()) {
-				    System.out.println(entry.getKey()+" : "+entry.getValue());
-				}
-				List<String> ls = rowRDD.collect();
-				ObjectMapper mapper = new ObjectMapper();
-				for (int i = 0; i < ls.size(); i++) {
-					
-					 * 
-					 * Printing the RDD's as JSON Object
-					 * 
-					 
-					Object json = mapper.readValue(ls.get(i), Object.class);
-					mapper.configure(SerializationFeature.INDENT_OUTPUT, true);
-					//System.out.println(mapper.writerWithDefaultPrettyPrinter().writeValueAsString(json));
-				}
+				//update
+				//updateObj = new BasicDBObject();
+				//updateObj.put("$set", newDoc);
+				collection.update(retreivalObj, new BasicDBObject("$set", new BasicDBObject("onTime", onTimeCurrent)));
+				System.out.println("Light " + bulbName+" has been persited to mongodb with time "+ onTimeCurrent);
 				
-		
+			}
+			else
+			{
+
+				//insert
+				newDoc.put("name", bulbName);
+				newDoc.put("onTime", (onTimeCurrent));
+				collection.insert(newDoc);
+				
+			}
+		}
 		
 	}
-*/
+	
 	public static void readRDD(JavaDStream<String> dStream) {
 
 		/*
@@ -233,7 +226,7 @@ public final class KafkaWordCount {
 						temp.set(Calendar.MINUTE, 0);
 						temp.set(Calendar.SECOND, 0);
 						temp.set(Calendar.MILLISECOND, 0);
-						Timestamp onTime = new Timestamp(temp.getTimeInMillis());
+						Long onTime = temp.getTimeInMillis();
 						if (objectHashmap.containsKey(name)) {
 							System.out.println("objectHashmap has " + name);
 							Lighting light = objectHashmap.get(name);
@@ -261,10 +254,11 @@ public final class KafkaWordCount {
 
 									// The total time for which the light was on.
 									long diff = light.getTimestamp().getTime() - timestamp.getTime();
-									long oldTimeInMilli = light.getOnTime().getTime();
+									long oldTimeInMilli = light.getOnTime();
 									oldTimeInMilli = oldTimeInMilli + diff;
-									light.setOnTime(new Timestamp(oldTimeInMilli));
-									System.out.println("New Updated onTime for "+light.getName()+" is "+light.getOnTime().getTime());
+									
+									light.setOnTime(TimeUnit.MILLISECONDS.toMinutes(oldTimeInMilli));
+									System.out.println("New Updated onTime for "+light.getName()+" is "+light.getOnTime());
 									light.setTimestamp(timestamp);
 									light.setIntialState(currentState);
 								}
@@ -282,7 +276,7 @@ public final class KafkaWordCount {
 							light.setIntialState(currentState);
 							objectHashmap.put(name, light);
 							
-							System.out.println("Light added: "+light.getName()+" with onTime: "+light.getOnTime().getTime());
+							System.out.println("Light added: "+light.getName()+" with onTime: "+light.getOnTime());
 						}
 						return string;
 					}
@@ -338,7 +332,7 @@ public final class KafkaWordCount {
 		temp.set(Calendar.MINUTE, 0);
 		temp.set(Calendar.SECOND, 0);
 		temp.set(Calendar.MILLISECOND, 0);
-		Timestamp onTime = new Timestamp(temp.getTimeInMillis());
+		long onTime = temp.getTimeInMillis();
 		if (!objectHashmap.containsKey(name)) {
 			Lighting light = new Lighting();
 			light.setName(name);
@@ -346,7 +340,7 @@ public final class KafkaWordCount {
 			light.setTimestamp(timestamp);
 			light.setIntialState(currentState);
 			objectHashmap.put(name, light);
-			System.out.println("Light added: "+light.getName()+" with onTime: "+light.getOnTime().getTime());
+			System.out.println("Light added: "+light.getName()+" with onTime: "+light.getOnTime());
 		} else {
 			Lighting light = objectHashmap.get(name);
 			String initialState = light.getIntialState();
@@ -371,11 +365,11 @@ public final class KafkaWordCount {
 
 					// The total time for which the light was on.
 					long diff = light.getTimestamp().getTime() - timestamp.getTime();
-					long oldTimeInMilli = light.getOnTime().getTime();
+					long oldTimeInMilli = light.getOnTime();
 					oldTimeInMilli = oldTimeInMilli + diff;
 					
-					light.setOnTime(new Timestamp(oldTimeInMilli));
-					System.out.println("New Updated onTime for "+light.getName()+" is "+light.getOnTime().getTime());
+					light.setOnTime(oldTimeInMilli);
+					System.out.println("New Updated onTime for "+light.getName()+" is "+light.getOnTime());
 					light.setTimestamp(timestamp);
 					light.setIntialState(currentState);
 				}

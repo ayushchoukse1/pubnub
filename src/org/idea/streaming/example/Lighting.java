@@ -6,11 +6,11 @@ import java.util.Calendar;
 public class Lighting {
 
 	private Timestamp timestamp;
-	private Timestamp onTime;
+	private Long onTime;
 	private String intialState;
 	private String name;
 
-	public Lighting(Timestamp timestamp, Timestamp onTime, String intialState, String name) {
+	public Lighting(Timestamp timestamp, Long onTime, String intialState, String name) {
 		super();
 		this.timestamp = timestamp;
 		this.onTime = onTime;
@@ -32,11 +32,11 @@ public class Lighting {
 		this.timestamp = timestamp;
 	}
 
-	public Timestamp getOnTime() {
+	public Long getOnTime() {
 		return onTime;
 	}
 
-	public void setOnTime(Timestamp onTime) {
+	public void setOnTime(Long onTime) {
 		this.onTime = onTime;
 	}
 
