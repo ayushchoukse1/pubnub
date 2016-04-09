@@ -20,7 +20,7 @@ I have built two services and the description of each service has been given bel
 
 **1.	Pubnub Real-Time Publishing-**
 
-I have used Pubnub’s Java SDK to implement the service. This is application publishes the real-time input stream of home automation that my app is receiving from an MQTT source. There are two kinds of streams that I am receiving for the scope of this demonstration. First stream has information about the lights installed and its state. A state of light can either be `Green` (Turned on) or `Red` (Turned off). I am displaying this information on under the lights tab. The second stream is data coming from thermostat which sends the current temperature in celsiusTemperature which is always an integer.
+I have used **Pubnub’s Java SDK** to implement the module. This is application publishes the real-time input stream of home automation that my app is receiving from an MQTT source. There are two kinds of streams that I am receiving for the scope of this demonstration. First stream has information about the lights installed and its state. A state of light can either be `Green` (Turned on) or `Red` (Turned off). I am displaying this information on under the lights tab. The second stream is data coming from thermostat which sends the current temperature in celsiusTemperature which is always an integer.
 ```
     Sample light data –
      {"client":"I.D.E.A. Lighting","command":"Lighting State","name":"Round Room SW","state":"Red"} 
@@ -57,7 +57,7 @@ b. `PubnubTest.java` – This class is publishing sample test data to `pubnub_te
 
 **2.   Pubnub real-time dashboard-**
 
-  I have used Pubnub's Javascript SDK. This module has two web pages realtime-dashboard.html and test-dashboard.html that are displaying the information coming from `pubnub_topic` and `pubnub_test_topic`channels.
+  I have used **Pubnub's Javascript SDK**. This module has two web pages realtime-dashboard.html and test-dashboard.html that are displaying the information coming from `pubnub_topic` and `pubnub_test_topic`channels.
 
   Pubnub APIs used – 
 * **Pubnub.init()** – To initialize instance of Pubnub with publish key and subscribe key.
