@@ -45,11 +45,12 @@ I have written two classes to generate data.
 
 a. `Pubnub1.java` - This class is publishing actual real-time data from the MQTT sources directly to the `pubnub_topic`.
 
-* Pubnub API used – **pubnub.publish()**.
+* Pubnub API used – **pubnub.publish().**
 
 b. `PubnubTest.java` – This class is publishing sample test data to `pubnub_test_topic`.
 
-* Pubnub API used – **pubnub.publish()**.
+* Pubnub API used – **pubnub.publish().**
+
 ```Note: source code for both of the files can be found in ‘pubnub/src/org/idea/streaming/example/’ folder.```
 
 **2.   Pubnub real-time dashboard-**
