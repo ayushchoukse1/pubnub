@@ -33,6 +33,21 @@
 	</build>
 	<dependencies>
 		<dependency>
+			<groupId>com.pubnub</groupId>
+			<artifactId>pubnub</artifactId>
+			<version>3.7.8</version>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20090211</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.5</version>
+		</dependency>
+		<dependency>
 			<groupId>org.apache.spark</groupId>
 			<artifactId>spark-core_2.10</artifactId>
 			<version>1.5.1</version>
