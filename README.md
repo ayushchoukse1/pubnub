@@ -1,6 +1,8 @@
 # PUBNUB HOME AUTOMATION 
 ###### - AYUSH CHOUKSE  ayush.choukse@sjsu.edu
 
+Link: [Dashboard](http://goo.gl/mekxa5)
+
 Sample Home Automation Application demonstrating use of Java APIs and Javascript APIs of Pubnub.
 ```
 Publish Key-  	“pub-c-96f9cabb-5663-43c5-a726-44a25484873c”
@@ -62,3 +64,5 @@ b. `PubnubTest.java` – This class is publishing sample test data to `pubnub_te
 * **Pubnub.subscribe()** – To subscribe the channels on which streaming data is published.
 * **Eon.chart()**- To display information of thermostat data in real-time. This chart displays the changes in temperature every second on a `spline` chart by subscribing to `c3-spline` channel.
 * **Pubnub.publish()**- To publish the thermostat data coming from subscribed channels to eon chart using `c3-spline` channel.
+
+
