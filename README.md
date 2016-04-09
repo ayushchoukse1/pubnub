@@ -57,7 +57,7 @@ b. `PubnubTest.java` – This class is publishing sample test data to `pubnub_te
 
 **2.   Pubnub real-time dashboard-**
 
-  This module has two web pages real realtime-dashboard.html and test-dashboard.html that are displaying the information coming from `pubnub_topic` and `pubnub_test_topic`.
+  I have used Pubnub's Javascript SDK. This module has two web pages realtime-dashboard.html and test-dashboard.html that are displaying the information coming from `pubnub_topic` and `pubnub_test_topic`channels.
 
   Pubnub APIs used – 
 * **Pubnub.init()** – To initialize instance of Pubnub with publish key and subscribe key.
