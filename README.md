@@ -3,6 +3,8 @@
 
 Link: [Dashboard](http://goo.gl/mekxa5)
 
+Youtube: [Youtube Demo video](https://youtu.be/AD7lSYy3JEA)
+
 Sample Home Automation Application demonstrating use of Java APIs and Javascript APIs of Pubnub.
 ```
 Publish Key-  	“pub-c-96f9cabb-5663-43c5-a726-44a25484873c”
