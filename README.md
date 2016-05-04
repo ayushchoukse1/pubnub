@@ -1,7 +1,7 @@
 # PUBNUB HOME AUTOMATION 
 ###### - AYUSH CHOUKSE  ayush.choukse@sjsu.edu
 
-Link: [Dashboard](http://goo.gl/mekxa5)
+Link: [Dashboard](http://goo.gl/TmJHp5)
 
 Youtube: [Youtube Demo video](https://youtu.be/AD7lSYy3JEA)
 
